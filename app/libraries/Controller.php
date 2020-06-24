@@ -7,6 +7,10 @@
 
 class Controller
 {
+    public function __construct()
+    {
+    }
+
     // Load model
     public function loadModel(string $model)
     {

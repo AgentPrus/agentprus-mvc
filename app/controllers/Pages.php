@@ -4,12 +4,14 @@ class Pages extends Controller
 {
     public function __construct()
     {
-
     }
 
     public function index()
     {
-        $data = ['title' => 'Welcome'];
+        $data = [
+            'title' => 'Welcome',
+        ];
+
         $this->loadView('pages/index', $data);
     }
 
